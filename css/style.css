@@ -1,0 +1,111 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	max-width: 1500px;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 50px 0 0 0;
+}
+
+a, a:hover, a:visited {
+	color: #fa776f;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2, h3, h4 {
+	font-family: 'Proxima Nova';
+	text-transform: uppercase;
+	color: #fa776f;
+	font-weight: 600;
+}
+
+section {
+	padding-bottom: 50px;
+}
+
+em {
+	font-style: italic;
+}
+
+.row {
+	text-align: left;
+	clear: both;
+	padding: 0;
+	max-height: 480px;
+}
+
+.row img {
+	width: 100%;
+	margin: 0;
+	border: 0;
+}
+
+.row .col-7 {
+	float: left;
+	width: 50%;
+	max-height: 480px;
+}
+
+.row .col-5 {
+	float: left;
+	width: calc(50% - 50px - 30px);
+	padding: 0 50px 0 30px;
+}
+
+.row p {
+	float: left;
+	font-size: 34px;
+	line-height: 130%;
+	max-width: 90%;
+	font-style: italic;
+}
+
+section p {
+	font-size: 36px;
+	line-height: 130%;
+}
+
+.authors img {
+	width: 200px;
+}
+
+input[type="email"] {
+	font-family: 'Minion Pro';
+	text-align: center;
+	font-size: 36px;
+	padding: 10px 10px 5px 10px;
+	min-width: 600px;
+	margin-top: 20px;
+	border-radius: 3px;
+	border: 1px solid #999;
+}
+
+button[type="submit"] {
+	font-family: 'Minion Pro';
+	background: #fa776f;
+	color: white;
+	border: 0;
+	font-size: 30px;
+	padding: 10px 30px 5px 30px;
+	border-radius: 3px;
+} 
+
+.twitters {
+	margin: 20px auto; 
+	width: 576px; 
+	text-align: left; 
+	font-size: 24px
+}
