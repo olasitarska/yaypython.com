@@ -83,7 +83,7 @@ section p {
 }
 
 input[type="email"] {
-	font-family: 'Minion Pro';
+	font-family: 'Crimson Text';
 	text-align: center;
 	font-size: 36px;
 	padding: 10px 10px 5px 10px;
@@ -94,7 +94,7 @@ input[type="email"] {
 }
 
 button[type="submit"] {
-	font-family: 'Minion Pro';
+	font-family: 'Crimson Text';
 	background: #fa776f;
 	color: white;
 	border: 0;
@@ -107,5 +107,59 @@ button[type="submit"] {
 	margin: 20px auto; 
 	width: 576px; 
 	text-align: left; 
-	font-size: 24px
+	font-size: 24px;
+}
+
+.signatures {
+	width: 576px;
+}
+
+
+@media only screen and (max-device-width : 640px) {
+	header .container img {
+		width: 75%;
+	}
+	section .container h1 {
+		padding: 0 50px;
+	}
+	.row .col-7 {
+		float: none;
+		width: 100%;
+		max-height: 100%;
+	}
+	.row .col-5 {
+		width: calc(100% - 50px - 30px);
+		float: none;
+		text-align: center;
+	}
+	.authors .container {
+		width: calc(100% - 100px);
+		padding: 50px;
+		margin: 0;
+	}
+	.authors {
+		margin-top: 100px;
+		padding: 0;
+	}
+	#newsletter label {
+		font-size: 1.7em;
+	}
+	#newsletter input[type="email"] {
+		font-size: 1.6em;
+  		width: 90%;
+  		border-radius: 5%;
+	}
+	#newsletter button[type="submit"] {
+		font-size: 1.6em;
+		border-radius: 5%;
+	}
+	.signatures {
+		width: 75%;
+	}
+	.twitters {
+		font-size: 1.7em;
+	}
+	.opposite-row img {
+		display: none;
+	}
 }
